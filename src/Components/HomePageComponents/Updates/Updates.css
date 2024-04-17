@@ -1,0 +1,41 @@
+.updatesTitleAndInformationContainer{
+    display: flex;
+    flex-direction: column;
+}
+.containerEvrythingUpdates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.updatesInformationAndImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.updatesImageContainer img{
+    height: 6rem;
+    margin-left: 1rem;
+}
+.updatesTitleAndInformationContainer h2{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #92A1E8;
+}
+@media (min-width:760px){
+    .containerEvrythingUpdates{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sliderContainerInUpdates{
+        width: 50vw;
+    }
+    .updatesInformationAndImageContainer{
+        width: 50vw;
+    }
+    .updatesTitleAndInformationContainer h2{
+        font-size: 2rem;
+    }
+
+}

@@ -1,0 +1,39 @@
+.containerConfirmationAppointment{
+    background-image: url(../../assets/img/backGround.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+}
+.textConfirmation{
+    background-color: rgba(85, 129, 180, 0.7);
+    padding: 2rem;
+}
+.textConfirmation p{
+     margin-bottom: 1rem;
+}
+.textConfirmation p span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.buttonsNavigationConfirmation{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.buttonsNavigationConfirmation button{
+    background-color: #b8c1ec;
+    border-radius: 2rem;
+    border: 0px;
+    padding: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonsNavigationConfirmation button:hover{
+    background-color: #92A1E8;
+}

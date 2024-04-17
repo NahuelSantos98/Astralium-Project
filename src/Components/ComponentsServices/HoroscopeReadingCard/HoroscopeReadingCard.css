@@ -1,0 +1,72 @@
+.horoscopeReadingPage{
+    background-image: url(../../../assets/img/backGround.png);
+    background-size: contain;
+    color: #ffff;
+}
+.horoscopeReadingPage h3{
+    text-align: center;
+    margin-top: 0;
+    padding: 3rem 0 0;
+    font-size: 2rem;
+}
+.contenedorCardHoroscope {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    background-color: rgba(85, 129, 180, 0.7);
+    margin: 0 1rem 2rem;
+}
+.cardHoroscope:first-of-type{
+    padding: 1rem;
+}
+.contenedorCardHoroscope img {
+    width: 5rem;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem; 
+}
+.contenedorCardHoroscope h2 {
+    font-size: 1.2;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.contenedorCardHoroscope p {
+    margin-bottom: 0.8rem;
+}
+.buttonsHoroscope{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsHoroscope button{
+    padding: 0.6rem;
+    border-radius: 1rem;
+    background-color: #fefefe;
+}
+.buttonsHoroscope button:hover{
+    background-color: #cac8c8;
+}
+.buttonsHoroscope button:last-of-type{
+    margin-bottom: 1rem;
+}
+
+@media (min-width:760px){
+    .contenedorCardHoroscope{
+        margin: 0 3rem 2rem;
+        width: 60rem;
+    }
+    .cardHoroscope{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contenedorCardHoroscope img{
+        width: 7rem;
+    }
+    .buttonsHoroscope{
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

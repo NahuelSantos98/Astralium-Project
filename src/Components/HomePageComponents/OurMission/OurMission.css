@@ -1,0 +1,30 @@
+.ourMissionContainer{
+    background-color: #92A1E8;
+    color: #FCFDEB;
+    text-align: justify;
+    padding: 0.5rem;
+}
+.ourMissionContainer h2{
+    margin-top: 1;
+    margin-left: 1rem;
+}
+.textMission{
+    text-align: justify;
+    margin: 0 1rem;
+}
+.slogan{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+@media (min-width:760px){
+    .ourMissionContainer{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+
+}

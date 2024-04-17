@@ -1,0 +1,64 @@
+.backgroundPageAstralChart{
+    background-image: url(../../../assets/img/backgroundZodiacSign.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+.backgroundPageAstralChart h1{
+text-align: center;
+}
+.cardAstralChart{
+    background-color: rgba(85, 129, 180, 0.9);
+    margin: 2rem;
+    background-size: contain;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+}
+.containerInfoAstralChart{
+    padding: 1rem 2rem;
+}
+.formAstralChart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.formAstralChart label{
+    font-size: 1.1rem;
+    text-decoration: dotted solid white;
+}
+.responseAstralChartCard{
+    background-color:rgba(85, 129, 180, 0.9);
+    color: white;
+    margin: 3rem; 
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.responseAstralChartCard h2{
+    text-decoration: solid underline;
+}
+.formAstralChart button{
+    padding: 0.5rem 3rem;
+    border: solid 1px black;
+    background-color: #a031d8;
+    color: white;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+}
+.formAstralChart input{
+    padding: 0.5rem;
+    text-align: center;
+
+}
+@media (min-width:760px){
+    .backgroundPageAstralChart{
+        padding: 4.4rem;
+    }
+    .textAstralChart{
+        margin: 0 15rem;
+    }
+}

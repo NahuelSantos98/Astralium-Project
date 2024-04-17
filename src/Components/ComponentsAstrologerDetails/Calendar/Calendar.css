@@ -1,0 +1,16 @@
+.formCalendarAppointment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.formCalendarAppointment input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    -webkit-box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 8px -7px rgba(0,0,0,0.75);
+}

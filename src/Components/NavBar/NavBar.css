@@ -1,0 +1,36 @@
+.containerNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #582770;
+
+    height: 3rem;
+
+}
+.titleNavBar{
+    margin-left: 1rem;
+}
+.titleNavBar h2{
+    font-size: 1.2rem;
+    color: #FCFDEB;
+    font-family: "Inika", serif;
+    font-weight: 700;
+}
+.userProfileImage{
+    margin-right: 1rem;
+}
+.userProfileImage img{
+    height: 2rem;
+}
+.signOut{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media (min-width:760px){
+.containerNavBar{
+    height: 4rem;
+}
+
+}

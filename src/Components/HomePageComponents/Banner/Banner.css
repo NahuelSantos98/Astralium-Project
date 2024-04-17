@@ -1,0 +1,39 @@
+h1{
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.containerBanner{
+    background-image: url(../../../assets/img/bannerBackground.png);
+    background-size: cover;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bannerInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.bannerButton button{
+    background-color: #b8c1ec;
+    border-radius: 2rem;
+    border: 0px;
+    padding: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bannerButton button:hover{
+    background-color: #92A1E8;
+}
+
+@media (min-width:780px){
+    .containerBanner{
+        height: 53vh;
+    }
+    .bannerInformation{
+        margin-left: 10rem;
+    }
+}
