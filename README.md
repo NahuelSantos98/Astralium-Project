@@ -1,8 +1,8 @@
-# React + Vite
+# Astralium Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Astralium represents a Responsive Web endeavor wherein React.js is utilized alongside Vite for practice purposes. It has been deployed on Vercel, and its URL is provided below: https://astralium-project.vercel.app/ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The employed libraries encompass "react-router-dom" for navigation control, "react-datepicker" for displaying a unified calendar and schedule within a single input when selecting a date for appointments, and "react-hook-form" for input validation. Additionally, "react-icons" facilitated the incorporation of various icons.
+
+Concerning the database configuration keys, they are securely stored as environment variables, ensuring they are not uploaded to GitHub.
