@@ -37,8 +37,14 @@
 .astrologerDetailsText{
     text-align: start;
 }
+.astrologerDetailContainerTotal{
+    padding-bottom: 4.1rem;
+}
 @media (min-width:1127px){
     .astrologerDetailImageTitlePresentation{
         padding: 1rem 20rem;
+    }
+    .astrologerDetailContainerTotal{
+        padding-bottom: 10rem;
     }
 }
